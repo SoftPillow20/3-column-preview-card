@@ -1,0 +1,117 @@
+/****************************/
+/* 960px (Laptop screens) */
+/* 960 / 16 = 60 */
+/****************************/
+
+@media (max-width: 60em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/****************************/
+/* 760px (Tablet screens) */
+/* 760 / 16 = 47.5 */
+/****************************/
+
+@media (max-width: 47.5em) {
+  .container {
+    max-width: 80rem;
+  }
+
+  .card-template {
+    padding: 4.4rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .text-description {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    margin-top: 2.4rem;
+    padding: 1.2rem 2.4rem;
+  }
+
+  .attribution {
+    font-size: 1.4rem;
+  }
+}
+
+/****************************/
+/* 560px (Smaller Tablet / Phone screens) */
+/* 560 / 16 = 35 */
+/****************************/
+
+@media (max-width: 35em) {
+  body {
+    height: 100%;
+  }
+
+  .container {
+    max-width: 60rem;
+    padding: 8rem 3.2rem 2.4rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .heading-primary {
+    margin-bottom: 3.6rem;
+    font-size: 6.2rem;
+  }
+
+  .text-description {
+    font-size: 1.8rem;
+    width: 90%;
+  }
+
+  .card-template {
+    padding: 5.2rem;
+  }
+
+  .card-template:nth-child(1) {
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-template:nth-child(3) {
+    border-radius: 0 0 6px 6px;
+  }
+
+  .btn {
+    font-weight: normal;
+    font-size: 1.8rem;
+    padding: 1.8rem 4.4rem;
+    margin-top: 0;
+  }
+
+  .attribution {
+    margin-top: 0;
+  }
+}
+
+/****************************/
+/* 375px (Smaller Phone screens) */
+/* 375 / 16 = 23.44 */
+/****************************/
+
+@media (max-width: 23.44em) {
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+
+  .text-description {
+    width: 100%;
+  }
+
+  .btn {
+    font-size: 1.8rem;
+    padding: 1.6rem 3.6rem;
+    margin-top: 0;
+  }
+}

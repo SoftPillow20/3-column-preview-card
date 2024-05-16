@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10 / 16 = 0.625 */
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container {
+  max-width: 95rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+}
+
+.card-template {
+  padding: 5.2rem;
+  color: hsla(0, 0%, 100%, 0.75);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4.4rem;
+}
+
+.card-template--orange,
+.card-template--orange .btn:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.card-template--cyan,
+.card-template--cyan .btn:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.card-template--dark-cyan,
+.card-template--dark-cyan .btn:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+.card-template:nth-child(1) {
+  border-radius: 11px 0 0 11px;
+}
+
+.card-template:nth-child(3) {
+  border-radius: 0 11px 11px 0;
+}
+
+.heading-primary {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+  font-size: 4.4rem;
+  text-transform: uppercase;
+
+  margin-bottom: 3.2rem;
+}
+
+.text-description {
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+.btn {
+  font-size: 1.4rem;
+  font-weight: 700;
+  background: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+  padding: 1.4rem 3.2rem;
+  border-radius: 100px;
+  margin-top: 3.2rem;
+
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.card-template--orange .btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.card-template--cyan .btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.card-template--dark-cyan .btn {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 1.6rem;
+  margin-top: 3.6rem;
+  text-align: center;
+}
