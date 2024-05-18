@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [3-column-preview-card-component]((https://softpillow20.github.io/3-column-preview-card/))
+- Live Site URL: [3-column-preview-card-component](https://softpillow20.github.io/3-column-preview-card/) 
 
 ## My process
 
