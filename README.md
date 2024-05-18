@@ -56,4 +56,4 @@ I want to be consistent in the development space and develop my skills in creati
 
 ## Author
 
-- Frontend Mentor - [@SoftPillow20](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@SoftPillow20](https://www.frontendmentor.io/profile/SoftPillow20)
