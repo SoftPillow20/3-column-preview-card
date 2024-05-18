@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [3-column-preview-card-component]((https://softpillow20.github.io/3-column-preview-card/))
 
 ## My process
 
@@ -56,5 +56,4 @@ I want to be consistent in the development space and develop my skills in creati
 
 ## Author
 
-- Website - [Bernie](https://www.your-site.com)
 - Frontend Mentor - [@SoftPillow20](https://www.frontendmentor.io/profile/yourusername)
